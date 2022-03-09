@@ -10,7 +10,9 @@ def post_load_hook():
     ):
 
         if not hasattr(self, "_get_base_domain"):
-            return self._get_fpos_by_region(country_id, state_id, zipcode, vat_required)
+            return self._get_fpos_by_region_original(
+                country_id, state_id, zipcode, vat_required
+            )
 
         if not country_id:
             return False
