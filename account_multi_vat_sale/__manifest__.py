@@ -14,4 +14,5 @@
     "depends": ["account_multi_vat", "sale"],
     "data": ["views/sale_order.xml", "report/sale_order_report.xml"],
     "demo": [],
+    "pre_init_hook": "pre_init_hook",
 }
