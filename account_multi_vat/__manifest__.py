@@ -19,6 +19,6 @@
         "views/account_move.xml",
         "views/res_partner.xml",
         "views/account_fiscal_position.xml",
-        "views/report_invoice.xml",
     ],
+    "pre_init_hook": "pre_init_hook",
 }
